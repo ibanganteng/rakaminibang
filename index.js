@@ -36,9 +36,9 @@ for (let i = 0 ; i < 100; i++){
 // (2.). Pecahlah menjadi 2 array berdasarkan indexnya, yakni array pada index genap dan array pada index ganjil, gunakan method push() untuk menambahkan nilai baru pada array
 for(let i=0; i < nilaiAcak.length; i++) {
     if (i % 2 === 0) {
-        nilaiGenap.push([i])
+        nilaiGenap.push(nilaiAcak[i])
     }else {
-        nilaiGanjil.push([i])
+        nilaiGanjil.push(nilaiAcak[i])
     }
 }
 
